@@ -1,0 +1,384 @@
+{
+  "janus_generated": true,
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "text",
+      "text": "[[总览]]",
+      "x": 480,
+      "y": 0,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n2",
+      "type": "text",
+      "text": "[[S-A]]",
+      "x": 40,
+      "y": 150,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n3",
+      "type": "text",
+      "text": "[[S-B]]",
+      "x": 380,
+      "y": 150,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n4",
+      "type": "text",
+      "text": "[[S-C]]",
+      "x": 720,
+      "y": 150,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n5",
+      "type": "text",
+      "text": "[[R-01_攻击·垂直联邦与图]]",
+      "x": 40,
+      "y": 280,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n6",
+      "type": "text",
+      "text": "[[P-BAEVFL]]",
+      "x": 40,
+      "y": 390,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n7",
+      "type": "text",
+      "text": "[[R-01_攻击·横向与个性化联邦]]",
+      "x": 40,
+      "y": 500,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n8",
+      "type": "text",
+      "text": "[[P-Bad_PFL_Exploring_Backdoor_Attacks_against_Perso]]",
+      "x": 40,
+      "y": 610,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n9",
+      "type": "text",
+      "text": "[[R-01_攻击·联邦自监督]]",
+      "x": 40,
+      "y": 720,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n10",
+      "type": "text",
+      "text": "[[P-IPBA_Imperceptible_Perturbation_Backdoor_Attack]]",
+      "x": 40,
+      "y": 830,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n11",
+      "type": "text",
+      "text": "[[R-01_攻击·联邦遗忘与大模型]]",
+      "x": 40,
+      "y": 940,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n12",
+      "type": "text",
+      "text": "[[P-BadFU_Backdoor_Federated_Learning_through_Advers]]",
+      "x": 40,
+      "y": 1050,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n13",
+      "type": "text",
+      "text": "[[R-02_防御与取证·图与大模型]]",
+      "x": 380,
+      "y": 280,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n14",
+      "type": "text",
+      "text": "[[P-FedGraph_Defending_Federated_Large_Language_Mode]]",
+      "x": 380,
+      "y": 390,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n15",
+      "type": "text",
+      "text": "[[R-02_防御与取证·垂直联邦]]",
+      "x": 380,
+      "y": 500,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n16",
+      "type": "text",
+      "text": "[[P-FILTER_A_Framework_for_Defending_Against_Backdoo]]",
+      "x": 380,
+      "y": 610,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n17",
+      "type": "text",
+      "text": "[[R-02_防御与取证·横向联邦]]",
+      "x": 380,
+      "y": 720,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n18",
+      "type": "text",
+      "text": "[[P-FLAC]]",
+      "x": 380,
+      "y": 830,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n19",
+      "type": "text",
+      "text": "[[R-03_基础与相邻工作·联邦学习基础攻防]]",
+      "x": 720,
+      "y": 280,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n20",
+      "type": "text",
+      "text": "[[P-FCBA]]",
+      "x": 720,
+      "y": 390,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n21",
+      "type": "text",
+      "text": "[[R-03_基础与相邻工作·隐私计算与聚合]]",
+      "x": 720,
+      "y": 500,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n22",
+      "type": "text",
+      "text": "[[P-CryptoMoE]]",
+      "x": 720,
+      "y": 610,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n23",
+      "type": "text",
+      "text": "[[R-03_基础与相邻工作·非联邦后门]]",
+      "x": 720,
+      "y": 720,
+      "width": 240,
+      "height": 72
+    },
+    {
+      "id": "n24",
+      "type": "text",
+      "text": "[[P-CLPBA]]",
+      "x": 720,
+      "y": 830,
+      "width": 240,
+      "height": 72
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "n1",
+      "fromSide": "bottom",
+      "toNode": "n2",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n1",
+      "fromSide": "bottom",
+      "toNode": "n3",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n1",
+      "fromSide": "bottom",
+      "toNode": "n4",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n5",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n5",
+      "fromSide": "bottom",
+      "toNode": "n6",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n7",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "n7",
+      "fromSide": "bottom",
+      "toNode": "n8",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n9",
+      "toSide": "top"
+    },
+    {
+      "id": "e9",
+      "fromNode": "n9",
+      "fromSide": "bottom",
+      "toNode": "n10",
+      "toSide": "top"
+    },
+    {
+      "id": "e10",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n11",
+      "toSide": "top"
+    },
+    {
+      "id": "e11",
+      "fromNode": "n11",
+      "fromSide": "bottom",
+      "toNode": "n12",
+      "toSide": "top"
+    },
+    {
+      "id": "e12",
+      "fromNode": "n3",
+      "fromSide": "bottom",
+      "toNode": "n13",
+      "toSide": "top"
+    },
+    {
+      "id": "e13",
+      "fromNode": "n13",
+      "fromSide": "bottom",
+      "toNode": "n14",
+      "toSide": "top"
+    },
+    {
+      "id": "e14",
+      "fromNode": "n3",
+      "fromSide": "bottom",
+      "toNode": "n15",
+      "toSide": "top"
+    },
+    {
+      "id": "e15",
+      "fromNode": "n15",
+      "fromSide": "bottom",
+      "toNode": "n16",
+      "toSide": "top"
+    },
+    {
+      "id": "e16",
+      "fromNode": "n3",
+      "fromSide": "bottom",
+      "toNode": "n17",
+      "toSide": "top"
+    },
+    {
+      "id": "e17",
+      "fromNode": "n17",
+      "fromSide": "bottom",
+      "toNode": "n18",
+      "toSide": "top"
+    },
+    {
+      "id": "e18",
+      "fromNode": "n4",
+      "fromSide": "bottom",
+      "toNode": "n19",
+      "toSide": "top"
+    },
+    {
+      "id": "e19",
+      "fromNode": "n19",
+      "fromSide": "bottom",
+      "toNode": "n20",
+      "toSide": "top"
+    },
+    {
+      "id": "e20",
+      "fromNode": "n4",
+      "fromSide": "bottom",
+      "toNode": "n21",
+      "toSide": "top"
+    },
+    {
+      "id": "e21",
+      "fromNode": "n21",
+      "fromSide": "bottom",
+      "toNode": "n22",
+      "toSide": "top"
+    },
+    {
+      "id": "e22",
+      "fromNode": "n4",
+      "fromSide": "bottom",
+      "toNode": "n23",
+      "toSide": "top"
+    },
+    {
+      "id": "e23",
+      "fromNode": "n23",
+      "fromSide": "bottom",
+      "toNode": "n24",
+      "toSide": "top"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# janus_generated: true
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'janus_generated == true'
+    - 'type == "baseline"'
+properties:
+  kind:
+    displayName: "类型"
+  venue_claim:
+    displayName: "会议声称"
+  status:
+    displayName: "状态"
+  file.name:
+    displayName: "笔记"
+views:
+  - type: table
+    name: "baseline 总表"
+    limit: 400
+    order:
+      - file.name
+      - kind
+      - venue_claim
+      - status

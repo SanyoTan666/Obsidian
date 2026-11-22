@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.inFolder("05_References")
+views:
+  - type: table
+    name: 待处理 (inbox)
+    filters:
+      and:
+        - status == "inbox"
+    order:
+      - file.name
+      - status
+      - clipped
+      - tags
+    sort:
+      - property: clipped
+        direction: DESC
+  - type: table
+    name: 阅读中 (reading)
+    filters:
+      and:
+        - status == "reading"
+    order:
+      - file.name
+      - status
+      - clipped
+      - tags
+  - type: table
+    name: 已提炼 (extracted)
+    filters:
+      and:
+        - status == "extracted"
+    order:
+      - file.name
+      - status
+      - clipped
+      - tags
+  - type: table
+    name: 全部剪藏
+    order:
+      - file.name
+      - status
+      - clipped
+      - source
+      - tags
+    sort:
+      - property: clipped
+        direction: DESC

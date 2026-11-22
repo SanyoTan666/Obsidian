@@ -1,0 +1,24 @@
+# janus_generated: true
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'janus_generated == true'
+    - 'type == "experiment"'
+properties:
+  machine:
+    displayName: "机器"
+  status:
+    displayName: "状态"
+  progress:
+    displayName: "进度"
+  file.name:
+    displayName: "笔记"
+views:
+  - type: table
+    name: "experiment 总表"
+    limit: 400
+    order:
+      - file.name
+      - machine
+      - status
+      - progress

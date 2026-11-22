@@ -1,0 +1,30 @@
+# janus_generated: true
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'janus_generated == true'
+    - 'type == "paper"'
+properties:
+  section:
+    displayName: "大类"
+  track:
+    displayName: "轨道"
+  status:
+    displayName: "状态"
+  doi:
+    displayName: "DOI"
+  arxiv:
+    displayName: "arXiv"
+  file.name:
+    displayName: "笔记"
+views:
+  - type: table
+    name: "paper 总表"
+    limit: 400
+    order:
+      - file.name
+      - section
+      - track
+      - status
+      - doi
+      - arxiv
